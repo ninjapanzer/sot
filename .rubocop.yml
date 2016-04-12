@@ -1,0 +1,33 @@
+inherit_from: .rubocop_todo.yml
+
+Style/SpaceInsideBrackets:
+  Enabled: false
+
+Style/ExtraSpacing:
+  Exclude:
+    - 'db/schema.rb'
+
+Style/EmptyLinesAroundBlockBody:
+  Exclude:
+    - 'db/schema.rb'
+
+Style/HashSyntax:
+  Enabled: true
+
+Style/EmptyLines:
+  Exclude:
+    - 'Gemfile'
+
+Style/StringLiterals:
+  Exclude:
+    - 'db/schema.rb'
+    - 'db/migrate/*'
+
+Style/TrailingBlankLines:
+  Enabled: true
+
+Style/BlockComments:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 154

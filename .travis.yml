@@ -3,3 +3,5 @@ rvm:
  - 2.2.2
  - 2.2.4
 script: ./scripts/run-tests.sh
+after_success:
+ - coveralls

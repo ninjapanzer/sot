@@ -44,6 +44,7 @@ gem 'pronto'
 gem 'pronto-rubocop'
 gem 'pronto-flay'
 gem 'pronto-brakeman'
+gem 'coveralls', require: false
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
